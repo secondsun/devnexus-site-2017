@@ -1,0 +1,15 @@
+{
+  "name": "dervnexus-site-2017",
+  "version": "2.0.0",
+  "keywords": [
+    "devnexus"
+  ],
+  "author": "DevNexus",
+  "contributors": [
+    "Summers Pittman (secondsun@gmail.com)",
+    "Gunnar Hillert (gunnar@hillert.com)"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
