@@ -18,3 +18,4 @@ nb-configuration.xml
 nbactions.xml
 **/_site/*
 **/node_modules/**
+/nbproject/private/

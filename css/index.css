@@ -172,26 +172,28 @@ Remove the left and right border on the sectons and try to use as many out of th
 .stats {
     background-image: url(../img/people-midpage.jpg);
     background-size: cover;
-    height: 350px;
-    padding-top: 38px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.stats .list-inline {
-    margin: 6px 290px 6px 290px;
+.stats div {
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     font-weight: 300;
     text-align: center;
     color: #ffffff;
-    line-height: 1.1
+    background-color: transparent;
+    line-height: 1.1;
+    border:0;
+    
 }
 
 .trump {
     color: #f6921e;
 }
 
-.stats .list-inline.trump {
-    margin: 6px 290px 6px 290px;
+.stats div .trump {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -210,12 +212,13 @@ Remove the left and right border on the sectons and try to use as many out of th
 }
 
 .speaker {
-    float: left;
-    margin: 40px
+    text-align: center;
+    border: none;
 }
 
 .speaker p {
     margin: 10px 0;
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 300;
@@ -289,6 +292,7 @@ div.session {
     float: left;
     margin: 40px;
     position: relative;
+    border: none;
 }
 
 div.session img{
@@ -309,6 +313,10 @@ div.session img{
     padding: 28px 35px;
     background-image: url('../img/green-tint.png');
     background-repeat: repeat;
+}
+
+.session.thumbnail {
+    padding:0;
 }
 
 .session div .title {
