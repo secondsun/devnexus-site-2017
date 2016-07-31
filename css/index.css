@@ -1,45 +1,90 @@
-.container {
-    width: 1680px;
-    height: 679px;
-    object-fit: contain;
-    background-color: #282828;
+body{
+  font-family: 'Montserrat', sans-serif;
 }
 
-.hero-mask {
-    opacity: 0.45;
-    background-color: #000;
-    height: 679px;
-    width: 100%;
-    position: relative;
-    float: left;
-}
+/* Hero area ============= */
 
-.hero-container {
-    align-content: center;
-    height: 679px;
-    width: 100%;
-    background-image: url('../img/hero.jpg')
-}
-
-.hero-content {
-    padding: 100px 0;
-    position: absolute;
-    width: 100%;
-    z-index: 100
-}
-
-.hero-content div{
-    margin-bottom: 50px
-}
-
-
-.list-inline {
-    display: flex;
-}
-
-.list-inline li {
-    flex: 1;
+.hero {
+    color: #fff;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.6)),
+    url('../img/hero.jpg');
+    background-size: 100% 100%, cover;
     text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 100px 10px;
+    border-bottom: 1px solid #fff;
+}
+.hero div{
+  margin: 0 auto;
+}
+
+.hero ul{
+  margin-bottom: 50px;
+}
+
+
+/* Social btns */
+.hero-social li{
+  margin: 0 15px;
+}
+
+/* Hero date and location */
+
+.hero-date-location li{
+  margin: 0 20px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #fafafa;
+}
+.hero-date-location img{
+  margin-right: 30px;
+}
+
+/* LOGO */
+.hero h1{
+ max-width: 965px;
+ height: auto;
+}
+.hero h1 img{
+  width: 100%;
+}
+
+
+.hero h2{
+  font-size: 48px;
+  font-weight: 700;
+  margin: 40px 0 50px 0;
+}
+
+.hero h2 span{
+  color:#6fa133;
+}
+
+.hero-btn-register{
+  height:65px;
+  width:360px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 100px;
+  background-color: #f6921e;
+}
+
+
+
+
+/* NavBar ============= */
+
+.navbar{
+  background-color: #282828;
+  color: #fff;
+  border: none;
+  margin: 0;
+  z-index: 100;
+  border-radius: 0;
+  padding: 30px;
 }
 
 .header {
@@ -49,8 +94,8 @@
 }
 
 .navbar {
-    margin-bottom: 0; 
-    border: 0; 
+    margin-bottom: 0;
+    border: 0;
     z-index: 100;
 }
 
@@ -58,63 +103,28 @@
     position: fixed;
     top: 0px;
     z-index: 100;
+    width: 100%;
 }
 
 .nav-link a, .nav-link button {
-    font-family: 'Montserrat', sans-serif;
     margin-right: 30px;
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #ffffff;
 }
 
-@media(min-width: 768px) {.navbar-right {
-                              float: right!important;
-                              margin-right: -30px;
-                          }
-}
+
 .btn-register {
-    width: 167px;
-    height: 56px;
-    margin-left: 20px;
-    border-radius: 100px;
-    background-color: #f6921e;
+  width: 167px;
+  height: 56px;
+  margin-left: 20px;
+  border-radius: 100px;
+  background-color: #f6921e;
 }
 
-.hero-join-text {
-    object-fit: contain;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    color: #ffffff;
-}
-
-
-.hero-date-location-text {
-    object-fit: contain;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: center;
-    color: #fafafa;
-}
-
-.hero-date-location-text img {
-    margin-right: 30px
-}
-.btn-register-hero {
-    height:65px;
-    width:360px;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    color: #ffffff;
-    margin-left: 20px;
-    border-radius: 100px;
-    background-color: #f6921e;
-}
+/* TODO: summers, I've got this far. Fixed the hero area and the navbar. Its a bit more reponsive but lots to do.
+Remove the left and right border on the sectons and try to use as many out of the box Boostrap components as possible. Forx example use the thumbnail component for the speakers
+*/
 
 .border {
     border-left : solid 1px #979797;
@@ -298,7 +308,7 @@ div.session img{
     width:100%;
     padding: 28px 35px;
     background-image: url('../img/green-tint.png');
-    background-repeat: repeat;  
+    background-repeat: repeat;
 }
 
 .session div .title {
@@ -319,7 +329,8 @@ div.session img{
 
 .tickets {
     background-image: url(../img/background-tickets.jpg);
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -372,7 +383,7 @@ div.session img{
 }
 
 .boss ul {
-    list-style-type: none;   
+    list-style-type: none;
     text-align: center;
 
 }
