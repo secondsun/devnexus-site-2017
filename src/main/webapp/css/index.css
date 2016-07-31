@@ -51,11 +51,13 @@
 .navbar {
     margin-bottom: 0; 
     border: 0; 
+    z-index: 100;
 }
 
 #nav.affix {
     position: fixed;
     top: 0px;
+    z-index: 100;
 }
 
 .nav-link a, .nav-link button {
@@ -114,3 +116,102 @@
     background-color: #f6921e;
 }
 
+.what-is {
+    font-family: 'Montserrat', sans-serif;
+    padding: 110px 50px;
+    height: 700px;
+    opacity: 0.98;
+    background-color: #91b565;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.6px;
+    color: #ffffff;
+}
+
+.preview {
+    overflow: hidden;
+    height: 700px;
+    padding: 0;
+    background-image: url(../img/screen-shot-2016-06-29-at-104433-a-m.png) ;
+    background-size: cover
+}
+
+.play-button {
+    margin-top: 283px;
+}
+
+.copy {
+    object-fit: contain;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #282828;
+    margin: 80px 180px
+}
+
+.stats {
+    background-image: url(../img/people-midpage.png);
+    background-size: cover;
+    height: 350px;
+    padding-top: 38px;
+}
+
+.stats .list-inline {
+    margin: 6px 290px 6px 290px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.1
+}
+
+.stats .list-inline.trump {
+    margin: 6px 290px 6px 290px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #f6921e;
+    line-height: 1.1
+}
+
+.speakers-header {
+    margin: 60px 180px 20px 180px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #282828;
+}
+
+.speaker {
+    float: left;
+    margin: 40px
+}
+
+.speaker p {
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #282828;
+}
+
+.speaker p .name {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.btn-speakers {
+    background-color: #6c9c31;
+    margin: 80px auto;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 48px 100px;
+    color: #FFF;
+}
