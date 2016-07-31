@@ -161,7 +161,7 @@
     margin: 6px 290px 6px 290px;
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     color: #ffffff;
     line-height: 1.1
@@ -214,4 +214,49 @@
     font-weight: 600;
     padding: 48px 100px;
     color: #FFF;
+}
+
+.space {
+    background-image: url(../img/limited_space.png);
+    background-size: cover;
+    padding-top: 38px;
+    height: 366px;
+}
+
+.space ul {
+    margin: 40px 0
+}
+
+.space ul {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+}
+
+.space ul li {
+    margin-bottom: 20px;
+}
+
+.space ul li button {
+    margin-top: 40px;
+}
+
+.space ul li.detail {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.space ul li .headline {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+}
+
+.space ul li .headline .trump {
+    color: #f6921e;
 }
