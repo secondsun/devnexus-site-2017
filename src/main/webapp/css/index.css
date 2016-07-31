@@ -18,7 +18,7 @@
     align-content: center;
     height: 679px;
     width: 100%;
-    background-image: url('../img/hero.png')
+    background-image: url('../img/hero.jpg')
 }
 
 .hero-content {
@@ -132,7 +132,7 @@
     overflow: hidden;
     height: 700px;
     padding: 0;
-    background-image: url(../img/screen-shot-2016-06-29-at-104433-a-m.png) ;
+    background-image: url(../img/screen-shot-2016-06-29-at-104433-a-m.jpg) ;
     background-size: cover
 }
 
@@ -151,7 +151,7 @@
 }
 
 .stats {
-    background-image: url(../img/people-midpage.png);
+    background-image: url(../img/people-midpage.jpg);
     background-size: cover;
     height: 350px;
     padding-top: 38px;
@@ -177,7 +177,7 @@
     line-height: 1.1
 }
 
-.speakers-header {
+.featured-header {
     margin: 60px 180px 20px 180px;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
@@ -217,7 +217,7 @@
 }
 
 .space {
-    background-image: url(../img/limited_space.png);
+    background-image: url(../img/limited_space.jpg);
     background-size: cover;
     padding-top: 38px;
     height: 366px;
@@ -259,4 +259,93 @@
 
 .space ul li .headline .trump {
     color: #f6921e;
+}
+
+
+div.session {
+    float: left;
+    margin: 40px;
+    position: relative;
+}
+
+div.session img{
+    width: 480px;
+    height: 480px;
+
+}
+
+.session div {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #282828;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    padding: 28px 35px;
+    background-image: url('../img/green-tint.png');
+    background-repeat: repeat;  
+}
+
+.session div .title {
+    opacity: 1;
+    margin: 10px 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.session div .name {
+    opacity: 1;
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.tickets {
+    background-image: url(../img/background-tickets.jpg);
+    background-repeat: repeat-y;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tickets .ticket {
+    margin: 40px 320px
+}
+
+.tickets div.featured-header{
+    color: #FFF
+}
+
+.tickets div.ticket .header {
+    color: #FFF;
+    font-size: 24px;
+    padding: 24px 60px 24px 60px !important;
+    background-color: #6c9c31;
+    margin-top: 40px;
+    height: auto;
+}
+
+.tickets div.ticket .body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    color: #262626;
+    background-color: #FFF;
+    margin: 0 0;
+}
+
+.tickets div.ticket .body .description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.33;
+    color: #262626;
+    margin: 15px 25px
+}
+
+.tickets div.ticket .body .buy-button button {
+    width: 220px;
+    margin: 15px 60px;
+
 }
