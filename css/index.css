@@ -237,6 +237,11 @@ Remove the left and right border on the sectons and try to use as many out of th
     font-weight: 700;
 }
 
+.btn.btn-square {
+    border-radius: 0;
+}
+
+
 .btn-speakers {
     background-color: #6c9c31;
     margin: 80px auto;
