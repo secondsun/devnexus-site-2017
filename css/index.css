@@ -2,6 +2,14 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #f6921e;    
+    color: #fff;
+}
+
 /* Hero area ============= */
 
 .hero {
@@ -66,10 +74,7 @@ body{
 .hero-btn-register{
     height:65px;
     width:360px;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 100px;
-    background-color: #f6921e;
+
 }
 
 
@@ -303,21 +308,21 @@ div.session img{
 }
 
 @media (min-width: 1250px) {
-    
+
     div.session-row {
         max-width: 1680px;
         margin: auto;
     }
-    
+
 }
 
 @media (max-width: 1250px) {
-    
+
     div.session-row {
         max-width: 1200px;
         margin: auto;
     }
-    
+
 }
 
 .session div {
@@ -391,13 +396,18 @@ div.session img{
     font-weight: 300;
     line-height: 1.33;
     color: #262626;
-    margin: 15px 25px
+    margin: 15px 0
+}
+
+
+.tickets div.ticket .ticket-price {
+    text-align: right;
 }
 
 .tickets div.ticket .body .buy-button button {
     width: 220px;
     margin: 15px 60px;
-
+    float: right;
 }
 
 .boss {
