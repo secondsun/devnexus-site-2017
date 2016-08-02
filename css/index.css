@@ -1,12 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #282828;
 }
 
 .btn {
     font-size: 20px;
     font-weight: 700;
     border-radius: 100px;
-    background-color: #f6921e;    
+    background-color: #f6921e;
     color: #fff;
 }
 
@@ -78,8 +81,6 @@ body{
 }
 
 
-
-
 /* NavBar ============= */
 
 .navbar{
@@ -127,10 +128,6 @@ body{
     background-color: #f6921e;
 }
 
-/* TODO: summers, I've got this far. Fixed the hero area and the navbar. Its a bit more reponsive but lots to do.
-Remove the left and right border on the sectons and try to use as many out of the box Boostrap components as possible. Forx example use the thumbnail component for the speakers
-*/
-
 .border {
     border-left : solid 1px #979797;
     border-right : solid 1px #979797;
@@ -140,18 +137,35 @@ Remove the left and right border on the sectons and try to use as many out of th
     border-bottom : solid 1px #979797;
 }
 
-.what-is {
-    font-family: 'Montserrat', sans-serif;
-    padding: 110px 50px;
-    height: 700px;
-    opacity: 0.98;
-    background-color: #91b565;
+
+/* What is =============== */
+
+.marketing-panel {
     font-size: 28px;
-    font-weight: 400;
+    background-color: #91b565;
     letter-spacing: 1.6px;
-    color: #ffffff;
+    color: #fff;
+}
+.what-is{
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+.what-is div{
+  padding:0 60px;
 }
 
+.what-is h1{
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.what-is ul{
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* TODO: Review this preview box when you have a real video. */
 .preview {
     overflow: hidden;
     height: 700px;
@@ -164,14 +178,12 @@ Remove the left and right border on the sectons and try to use as many out of th
     margin-top: 283px;
 }
 
+/* Copy section ====================== */
+
 .copy {
-    object-fit: contain;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    color: #282828;
-    margin: 80px 180px
+  font-size: 24px;
+  text-align: center;
+  margin: 80px 180px;
 }
 
 .stats {
@@ -209,14 +221,29 @@ Remove the left and right border on the sectons and try to use as many out of th
 }
 
 .featured-header {
-    margin: 60px 180px 20px 180px;
-    font-family: 'Montserrat', sans-serif;
+    margin: 80px 0px;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    color: #282828;
 }
 
+.speakers .thumbnail{
+margin-bottom: 40px;
+  }
+
+.speakers .thumbnail, .speakers .caption{
+  padding:0;
+  border: none;
+}
+.speakers .thumbnail img{
+  width: 100%;
+}
+
+.speakers p{
+  margin-bottom: 5px;
+}
+
+/*
 .speaker {
     text-align: center;
     border: none;
@@ -234,7 +261,7 @@ Remove the left and right border on the sectons and try to use as many out of th
 .speaker p .name {
     margin: 10px 0;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 700;*/
 }
 
 .btn.btn-square {
