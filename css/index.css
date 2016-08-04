@@ -3,6 +3,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #282828;
+  font-size: 16px;
 }
 
 .btn {
@@ -195,7 +196,6 @@ body{
 }
 
 .stats div {
-
     font-family: 'Montserrat', sans-serif;
     font-size: 64px;
     font-weight: 300;
@@ -227,9 +227,20 @@ body{
     text-align: center;
 }
 
+ /* Speakers =============== */
+
+.speakers:after {
+  content: " ";
+  display: table;
+}
+
+.speakers:after {
+  clear: both;
+}
+
 .speakers .thumbnail{
-margin-bottom: 40px;
-  }
+  margin-bottom: 40px;
+}
 
 .speakers .thumbnail, .speakers .caption{
   padding:0;
@@ -243,233 +254,112 @@ margin-bottom: 40px;
   margin-bottom: 5px;
 }
 
-/*
-.speaker {
-    text-align: center;
-    border: none;
-}
-
-.speaker p {
-    margin: 10px 0;
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    color: #282828;
-}
-
-.speaker p .name {
-    margin: 10px 0;
-    font-size: 24px;
-    font-weight: 700;*/
-}
-
 .btn.btn-square {
-    border-radius: 0;
+  border-radius: 0;
+  margin: 20px auto 70px auto;
 }
-
 
 .btn-speakers {
     background-color: #6c9c31;
-    margin: 80px auto;
     width: 80%;
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
-    font-weight: 600;
     padding: 48px 100px;
     color: #FFF;
 }
 
-.space {
-    background-image: url(../img/limited_space.jpg);
-    background-size: cover;
-    padding-top: 38px;
-    height: 366px;
-}
-
-.space ul {
-    margin: 40px 0
-}
-
-.space ul {
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
+ /* call to action ============*/
+.call-to-action {
     text-align: center;
-    color: #ffffff;
+    color: #fff;
+    background: #cdddb9;
+    border-bottom: solid 1px #979797;
+}
+.space{
+  background-image: url(../img/limited_space.jpg);
+  background-size: cover;
+  text-align: center;
+}
+.call-to-action h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 70px auto 20px auto;
 }
 
-.space ul li {
-    margin-bottom: 20px;
+.call-to-action p {
+  margin-bottom: 20px;
 }
 
-.space ul li button {
-    margin-top: 40px;
+.call-to-action button{
+  margin-bottom: 70px;
 }
 
-.space ul li.detail {
-    font-size: 18px;
-    font-weight: 500;
-
-}
-
-.space ul li .headline {
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-    color: #ffffff;
-}
-
-.space ul li .headline .trump {
+.call-to-action .trump {
     color: #f6921e;
 }
 
 
-div.session {
-    float: left;
-    margin: 40px;
-    position: relative;
-    border: none;
+/* Sessions ============ */
+
+
+.sessions .thumbnail{
+  position: relative;
 }
 
-div.session img{
-    width: 480px;
-    height: 480px;
-
+.sessions .caption{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(148,183,105,.72);
+  color: #fff;
+  padding: 28px;
+  font-size: 26px;
 }
 
-@media (min-width: 1250px) {
-
-    div.session-row {
-        max-width: 1680px;
-        margin: auto;
-    }
-
+.sessions .caption h3{
+  font-size: 28px;
+  font-weight: 700;
 }
 
-@media (max-width: 1250px) {
 
-    div.session-row {
-        max-width: 1200px;
-        margin: auto;
-    }
-
-}
-
-.session div {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: #282828;
-    position: absolute;
-    bottom:0;
-    width:100%;
-    padding: 28px 35px;
-    background-image: url('../img/green-tint.png');
-    background-repeat: repeat;
-}
-
-.session.thumbnail {
-    padding:0;
-}
-
-.session div .title {
-    opacity: 1;
-    margin: 10px 0;
-    font-size: 26px;
-    font-weight: 600;
-    color: #ffffff;
-}
-
-.session div .name {
-    opacity: 1;
-    margin: 10px 0;
-    font-size: 22px;
-    font-weight: 300;
-    color: #ffffff;
-}
+/* tickets ================= */
 
 .tickets {
     background-image: url(../img/background-tickets.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 70px;
 }
 
-.tickets .ticket {
-    margin: 40px 320px
+.tickets .featured-header{
+  color: #fff;
 }
 
-.tickets div.featured-header{
-    color: #FFF
+.tickets .panel{
+  border-radius: 0;
+  border: none;
 }
 
-.tickets div.ticket .header {
-    color: #FFF;
+.tickets .panel-heading{
+  border-radius: 0;
+  background: #6c9c31;
+  padding: 24px 60px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tickets .panel-title{
     font-size: 24px;
-    padding: 24px 60px 24px 60px !important;
-    background-color: #6c9c31;
-    margin-top: 40px;
-    height: auto;
-}
+    font-weight: 700;
+  }
 
-.tickets div.ticket .body {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.33;
-    color: #262626;
-    background-color: #FFF;
-    margin: 0 0;
-}
-
-.tickets div.ticket .body .description {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 1.33;
-    color: #262626;
-    margin: 15px 0
-}
-
-
-.tickets div.ticket .ticket-price {
-    text-align: right;
-}
-
-.tickets div.ticket .body .buy-button button {
-    width: 220px;
-    margin: 15px 60px;
-    float: right;
-}
-
-.boss {
-    background-color: #cdddb9;
-    border: solid 1px #979797;
-    padding-top: 80px ;
-    padding-bottom: 40px ;
+.tickets .panel-body button{
+  float: right;
+  margin: 0 60px 50px 40px;
 
 }
 
-.boss ul {
-    list-style-type: none;
-    text-align: center;
-
-}
-
-.boss .boss-copy {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 900;
-    color: #ffffff;
-}
-
-.boss .btn-register-hero {
-    margin: 40px auto;
-}
-
-.sponsors {
-
-}
 
 .sponsor-section {
     font-size: 24px;
@@ -482,85 +372,16 @@ div.session img{
     float: left;
 }
 
+
 .become-sponsor {
     background-image: url(../img/become-sponsor-bg.jpg);
     background-size: cover;
-    padding-top: 65px;
-    height: 528px;
-    border: solid 1px #979797;
 }
 
-.become-sponsor ul {
-    margin: 60px 0
-}
-
-.become-sponsor ul {
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    color: #ffffff;
-}
-
-.become-sponsor ul li {
-    margin-bottom: 20px;
-}
-
-.become-sponsor ul li button {
-    margin-top: 40px;
-}
-
-.become-sponsor ul li.detail {
-    font-size: 18px;
-    font-weight: 500;
-
-}
-
-.become-sponsor ul li .headline {
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-    color: #ffffff;
-}
-
-.become-sponsor ul li .headline .trump {
-    color: #f6921e;
-}
 
 .question {
     background-color: #282828;
-    border: solid 1px #979797;
 }
-
-
-.question ul {
-    margin: 60px 0
-}
-
-.question ul {
-    list-style-type: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    color: #ffffff;
-}
-
-.question  ul li .headline {
-    font-size: 50px;
-    font-weight: 900;
-    text-align: center;
-    color: #ffffff;
-}
-
-.question ul li {
-    margin-bottom: 20px;
-}
-
-.question ul li button {
-    margin-top: 40px;
-}
-
 
 .footer {
     background-color: #282828;
