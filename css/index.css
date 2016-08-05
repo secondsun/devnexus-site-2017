@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #282828;
-  font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #282828;
+    font-size: 16px;
 }
 
-.btn {
+.btn, .btn {
     font-size: 20px;
     font-weight: 700;
     border-radius: 100px;
@@ -75,10 +75,10 @@ body{
     color:#6fa133;
 }
 
-.hero-btn-register{
+.hero-btn-register {
     height:65px;
     width:360px;
-
+    padding-top: 12pt;
 }
 
 
@@ -113,13 +113,18 @@ body{
     width: 100%;
 }
 
-.nav-link a, .nav-link button {
+.nav-link a, .nav-link button, .nav-link a.btn {
     margin-right: 30px;
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
+.navbar-nav li a.btn,.navbar-nav li a.btn:hover {
+    color: #fff;
+    background-color: #f6921e;    
+    font-size: 17px;    
+}
 
 .btn-register {
     width: 167px;
@@ -148,22 +153,22 @@ body{
     color: #fff;
 }
 .what-is{
-  display: flex;
-  align-items: center;
-  height: 700px;
+    display: flex;
+    align-items: center;
+    height: 700px;
 }
 .what-is div{
-  padding:0 60px;
+    padding:0 60px;
 }
 
 .what-is h1{
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
 }
 .what-is ul{
-  font-weight: 700;
-  margin-bottom: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
 
 /* TODO: Review this preview box when you have a real video. */
@@ -182,9 +187,9 @@ body{
 /* Copy section ====================== */
 
 .copy {
-  font-size: 24px;
-  text-align: center;
-  margin: 80px 180px;
+    font-size: 24px;
+    text-align: center;
+    margin: 80px 180px;
 }
 
 .stats {
@@ -227,36 +232,36 @@ body{
     text-align: center;
 }
 
- /* Speakers =============== */
+/* Speakers =============== */
 
 .speakers:after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .speakers:after {
-  clear: both;
+    clear: both;
 }
 
 .speakers .thumbnail{
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .speakers .thumbnail, .speakers .caption{
-  padding:0;
-  border: none;
+    padding:0;
+    border: none;
 }
 .speakers .thumbnail img{
-  width: 100%;
+    width: 100%;
 }
 
 .speakers p{
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .btn.btn-square {
-  border-radius: 0;
-  margin: 20px auto 70px auto;
+    border-radius: 0;
+    margin: 20px auto 70px auto;
 }
 
 .btn-speakers {
@@ -267,7 +272,7 @@ body{
     color: #FFF;
 }
 
- /* call to action ============*/
+/* call to action ============*/
 .call-to-action {
     text-align: center;
     color: #fff;
@@ -275,22 +280,22 @@ body{
     border-bottom: solid 1px #979797;
 }
 .space{
-  background-image: url(../img/limited_space.jpg);
-  background-size: cover;
-  text-align: center;
+    background-image: url(../img/limited_space.jpg);
+    background-size: cover;
+    text-align: center;
 }
 .call-to-action h1 {
-  font-weight: 700;
-  font-size: 36px;
-  margin: 70px auto 20px auto;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 70px auto 20px auto;
 }
 
 .call-to-action p {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.call-to-action button{
-  margin-bottom: 70px;
+.call-to-action button, .call-to-action a.btn {
+    margin-bottom: 70px;
 }
 
 .call-to-action .trump {
@@ -302,23 +307,23 @@ body{
 
 
 .sessions .thumbnail{
-  position: relative;
+    position: relative;
 }
 
 .sessions .caption{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(148,183,105,.72);
-  color: #fff;
-  padding: 28px;
-  font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(148,183,105,.72);
+    color: #fff;
+    padding: 28px;
+    font-size: 26px;
 }
 
 .sessions .caption h3{
-  font-size: 28px;
-  font-weight: 700;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 
@@ -332,31 +337,31 @@ body{
 }
 
 .tickets .featured-header{
-  color: #fff;
+    color: #fff;
 }
 
 .tickets .panel{
-  border-radius: 0;
-  border: none;
+    border-radius: 0;
+    border: none;
 }
 
 .tickets .panel-heading{
-  border-radius: 0;
-  background: #6c9c31;
-  padding: 24px 60px;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
+    border-radius: 0;
+    background: #6c9c31;
+    padding: 24px 60px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .tickets .panel-title{
     font-size: 24px;
     font-weight: 700;
-  }
+}
 
-.tickets .panel-body button{
-  float: right;
-  margin: 0 60px 50px 40px;
+.tickets .panel-body button, .tickets .panel-body a.btn {
+    float: right;
+    margin: 0 60px 50px 40px;
 
 }
 
@@ -401,4 +406,49 @@ body{
     text-align: center;
     color: #666666;
     text-transform: uppercase;
+}
+/* Registration page ============= */
+
+.register h2 {
+    background-color: #91b565;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #282828;
+    padding: 24px 0;
+    margin: 30px 40px
+}
+
+.register .ticket-detail header  {
+    margin: 30px 40px;
+}
+.register .ticket-detail header h1 {
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.register .ticket-detail header p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.register .tickets {
+    
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.register .tickets .panel{
+    border-radius: 0;
+    border: 1px #979797 solid;
+    margin-top: 60px;
+}
+
+.register .tickets .panel .panel-heading{
+    background-color: #282828;
+    text-transform: uppercase
 }
