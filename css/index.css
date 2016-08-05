@@ -6,7 +6,7 @@ body{
     font-size: 16px;
 }
 
-.btn, .btn {
+.btn {
     font-size: 20px;
     font-weight: 700;
     border-radius: 100px;
@@ -78,7 +78,8 @@ body{
 .hero-btn-register {
     height:65px;
     width:360px;
-    padding-top: 12pt;
+    line-height: 65px;
+    padding: 0;
 }
 
 
@@ -435,7 +436,7 @@ body{
 }
 
 .register .tickets {
-    
+
     background-image: none;
     background-repeat: no-repeat;
     background-size: cover;
@@ -451,4 +452,41 @@ body{
 .register .tickets .panel .panel-heading{
     background-color: #282828;
     text-transform: uppercase
+}
+
+
+/* conference-information == */
+
+.conference-information {
+    margin: 40px; 
+    background-color: #fff;
+
+}
+
+.conference-information p {
+    margin: 40px 0; 
+    font-size: 24px;
+}
+
+
+.conference-information .information-card h1 {
+    margin: 20px 0; 
+}
+
+.conference-information .information-card img {
+    margin: 20px 0; 
+    width: 100%;
+}
+
+.conference-information section, .conference-information div {
+    background-color: #fff;
+    border: 0;
+}
+
+.conference-information a.btn{
+    height:65px;
+    width:360px;
+    vertical-align: middle;
+    line-height: 65px;
+    padding: 0;
 }
