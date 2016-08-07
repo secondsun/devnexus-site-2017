@@ -493,7 +493,7 @@ body{
 
 /* Schedule customizations */
 
-.schedule .btn {
+.schedule-config .btn {
     width: 360px;
     height: 65px;
     font-size: 20px;
@@ -502,87 +502,151 @@ body{
     text-transform: uppercase;
 }
 
-.schedule .featured-header {
+.schedule-config .featured-header {
     margin-bottom: 40px;
 }
 
-.schedule .row {
+.schedule-config .row {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.schedule .btn.customize {
+.schedule-config .btn.customize {
     background-color: #dd4e42;
     margin-right: 40px;
 }
 
-.schedule .btn.download {
+.schedule-config .btn.download {
     background-color: #6c9c31;
     margin-left: 40px;
 }
 
-.schedule .btn .badge {
+.schedule-config .btn .badge {
     background: transparent;
 }
 
-.schedule .btn .icon {
+.schedule-config .btn .icon {
     margin-right: 10px;
     height: 4em;
 
 }
 
-.schedule #schedule-type-filter .btn {
+.schedule-config #schedule-type-filter .btn {
     border-radius: 0;
     width:250px;
 }
 
-.schedule #schedule-type-filter .btn.unselected {
+.schedule-config #schedule-type-filter .btn.unselected {
     border-radius: 0;
     width:200px;
     background-color: white;
     color: #f6921e;
 }
 
-.schedule #schedule-day-filter .btn-group {
+.schedule-config #schedule-day-filter .btn-group {
     display: block;
     margin: 0 40px;
 }
 
-.schedule #schedule-day-filter .btn {
+.schedule-config #schedule-day-filter .btn {
     height: auto;
 }
 
-.schedule #schedule-day-filter .btn span.big { 
+.schedule-config #schedule-day-filter .btn span.big { 
     font-size: 50px;
     font-weight: 600;
     text-align: center;
-    
+
 }
 
-.schedule #schedule-day-filter .btn.unselected span.little {
+.schedule-config #schedule-day-filter .btn.unselected span.little {
     font-size: 16.6px;
     font-weight: 600;
     text-align: center;
     color: #abb3bc;
-    
+
 }
 
-.schedule #schedule-day-filter .btn span.little {
+.schedule-config #schedule-day-filter .btn span.little {
     font-size: 16.6px;
     font-weight: 600;
     text-align: center;
-    
+
 }
 
 
-.schedule #schedule-day-filter .btn {
+.schedule-config #schedule-day-filter .btn {
     border-radius: 0;
     width:33%;
 }
 
-.schedule #schedule-day-filter .btn.unselected  {
+.schedule-config #schedule-day-filter .btn.unselected  {
     border-radius: 0;
     width:33%;
     background-color: white;
     color: #f6921e;
+}
+
+.schedule-config #sub-filter .btn-group{
+    display: block;
+    margin: 0 40px;
+}
+.schedule-config #sub-filter .btn {
+    border-radius: 0;
+    width:33%;
+    background-color: white;
+    color: #f6921e;
+    text-align: left;
+}
+
+.schedule-config #sub-filter .btn .caret {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+}
+
+.schedule-config #sub-filter .dropdown-menu {
+    border-radius: 0;
+    width:33%;
+    background-color: white;
+    color: #f6921e;
+    text-align: left;
+}
+
+.schedule-config #sub-filter .dropdown-menu li a{
+    background-color: white;
+    color: #f6921e;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.schedule .schedule-header {
+    margin: 40px 22px 0 22px;
+    background-color: black;
+}
+
+.schedule h2 {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+
+    padding: 10px 0
+}
+
+.schedule .schedule-row {
+    margin: 0 22px;
+    border: 1px solid;
+    border-bottom: 0px;
+}
+.container div.schedule-row:last-child {
+    border-bottom: 1px solid;
+}
+
+.schedule .schedule-row div {
+    border-right: 1px solid;
+}
+.container div.schedule-row div:last-child {
+    border-right: 0px;
 }

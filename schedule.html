@@ -8,6 +8,7 @@
 
         <title>Conference Information - DevNexus 2017</title>
         <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
         <link href="css/index.css" rel="stylesheet">
         <style>
             body {
@@ -44,7 +45,7 @@
             </div><!-- /.container-fluid -->
         </nav>
 
-        <section class="container-fluid schedule" >
+        <section class="container-fluid schedule-config" >
             <h1 class="featured-header">
                 SCHEDULE
             </h1>
@@ -75,8 +76,57 @@
                     </div>
                 </div>
             </div>
-            
+
+            <div class="row" id="sub-filter">
+                <!-- Single button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Track <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Keynote, Breaks, etc</a></li>
+                        <li><a href="#">Microservices</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">JVM Languages</a></li>
+                        <li><a href="#">HTML 5</a></li>
+                        <li><a href="#">Data, Integration, IOT</a></li>
+                        <li><a href="#">UX + Tools</a></li>
+                        <li><a href="#">security</a></li>
+                        <li><a href="#">Cloud + DevOps</a></li>
+                        <li><a href="#">NoSQL</a></li>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Agile</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Architecture</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
         </section>
+
+        <section class="container-fluid schedule" >
+            <div class="row text-center row-eq-height schedule-header">
+                <h2>BREAKOUT #1</h2>
+            </div>
+            <div class="row schedule-row">
+                <div class="col-sm-6 col-xs-12 name">
+                    FirstName LastName<br>
+                    <span class="small">Name of Presentaion</span>
+                </div>
+                <div class="col-sm-2 col-xs-12 text-center">
+                    Track
+                </div>
+                <div class="col-sm-2 col-xs-12 text-center">
+                    Room Location
+                </div>
+                <div class="col-sm-2 col-xs-12 text-center">
+                    00:00AM - 00:00AM
+                </div>
+            </div>
+        </section>
+
         <footer class="row footer">
             <div >
                 <img  class="center-block" style="margin-top: 40px;padding-left: 50px" src="img/devnexus-logo.png" alt="logo"/>
