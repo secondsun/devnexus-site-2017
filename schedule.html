@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Conference Information - DevNexus 2017</title>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <style>
+            body {
+                zoom : 75%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse" id="nav">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/devnexus-logo.png" alt="DevNexus"/>
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-link"><a href="#">SPEAKERS</a></li>
+                        <li class="nav-link"><a href="#">SCHEDULE</a></li>
+                        <li class="nav-link"><a href="#">SPONSORS</a></li>
+                        <li class="nav-link"><a href="#">CONFERENCE INFO</a></li>
+                        <li class="nav-link"><button type="button" class="btn btn-register">REGISTER</button></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <section class="container-fluid schedule" >
+            <h1 class="featured-header">
+                SCHEDULE
+            </h1>
+
+            <div class="row">
+                <div class="text-center">
+                    <button class="btn customize"><span class="badge"><img src="img/google-plus-2.png" class="icon"/></span>custom schedule</button>
+                    <button class="btn download">download</button>  
+                </div>
+            </div>
+            <div class="row" id="schedule-type-filter">
+                <div class="text-center">
+                    <div class="btn-group" role="group" >
+                        <button type="button" class="btn btn-default ">Time</button>
+                        <button type="button" class="btn btn-default unselected ">Events</button>
+                        <button type="button" class="btn btn-default unselected">Speakers</button>
+                        <button type="button" class="btn btn-default unselected">Room</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="schedule-day-filter">
+                <div class="text-center">
+                    <div class="btn-group" role="group" >
+                        <button type="button" class="btn btn-default "><span class="big">Day 1</span><br><span class="little">02/20/2017</span></button>
+                        <button type="button" class="btn btn-default unselected "><span class="big">Day 2</span><br><span class="little">02/21/2017</span></button>
+                        <button type="button" class="btn btn-default unselected"><span class="big">Day 3</span><br><span class="little">02/22/2017</span></button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <footer class="row footer">
+            <div >
+                <img  class="center-block" style="margin-top: 40px;padding-left: 50px" src="img/devnexus-logo.png" alt="logo"/>
+            </div>
+            <div style="text-align: center;margin-top: 40px">
+
+                <span class="text">speakers</span>
+                <span class="text">schedule</span>
+                <span class="text">conference info</span>
+                <span class="text">code of conduct</span>
+                <span class="text">privacy policy</span>
+                <span class="text">organizers</span>
+            </div>
+            <div style="text-align: center;margin: 40px">
+                <a style="margin: 10px"><img src="img/facebook-logo-button.png"/></a>
+                <a style="margin: 10px"><img src="img/twitter-logo-button.png"/></a>
+                <a style="margin: 10px"><img src="img/instagram-logo.png"/></a>
+                <a style="margin: 10px"><img src="img/google-plus-1.png"/></a>
+            </div>
+        </footer>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $('#nav').affix({
+                offset: {top: $('#nav').offset().top}
+            });
+        </script>
+    </body>
+</html>
