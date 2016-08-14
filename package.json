@@ -1,5 +1,5 @@
 {
-  "name": "dervnexus-site-2017",
+  "name": "devnexus-site-2017",
   "version": "2.0.0",
   "keywords": [
     "devnexus"
@@ -10,6 +10,7 @@
     "Gunnar Hillert (gunnar@hillert.com)"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "bootstrap-less": "^3.3.8"
   }
 }

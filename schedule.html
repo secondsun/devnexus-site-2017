@@ -48,9 +48,12 @@
         <section class="container-fluid schedule-config" >
             <h1 class="featured-header">
                 SCHEDULE
+                <span class="visible-xs visible-sm" style="float: right; padding-right: 40px;">
+                    <a style="font-size: 10pt; color: rgb(220, 78, 65);vertical-align: middle" href="#">Customize</a>
+                </span>
             </h1>
 
-            <div class="row">
+            <div class="row hidden-xs">
                 <div class="text-center">
                     <button class="btn customize"><span class="badge"><img src="img/google-plus-2.png" class="icon"/></span>custom schedule</button>
                     <button class="btn download">download</button>  
@@ -67,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="row" id="schedule-day-filter">
+            <div class="row hidden-xs" id="schedule-day-filter">
                 <div class="text-center">
                     <div class="btn-group" role="group" >
                         <button type="button" class="btn btn-default "><span class="big">Day 1</span><br><span class="little">02/20/2017</span></button>
@@ -77,7 +80,22 @@
                 </div>
             </div>
 
-            <div class="row" id="sub-filter">
+            <div class="row visible-xs sub-filter" id="schedule-day-dropdown-filter">
+                
+                <div class="btn-group" >
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Day 1 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Day 1</a></li>
+                        <li><a href="#">Day 2</a></li>
+                        <li><a href="#">Day 3</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            
+            <div class="row sub-filter" >
                 <!-- Single button -->
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -107,26 +125,117 @@
         </section>
 
         <section class="container-fluid schedule" >
-            <div class="row text-center row-eq-height schedule-header">
-                <h2>BREAKOUT #1</h2>
+            <div class="row">
+                <div class="row text-center row-eq-height schedule-header">
+                    <h2>BREAKOUT #1</h2>
+                </div>
+
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
+                </div>
             </div>
-            <div class="row schedule-row">
-                <div class="col-sm-6 col-xs-12 name">
-                    FirstName LastName<br>
-                    <span class="small">Name of Presentaion</span>
+             <div class="row">
+                <div class="row text-center row-eq-height schedule-header">
+                    <h2>BREAKOUT #1</h2>
                 </div>
-                <div class="col-sm-2 col-xs-12 text-center">
-                    Track
+
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
                 </div>
-                <div class="col-sm-2 col-xs-12 text-center">
-                    Room Location
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
                 </div>
-                <div class="col-sm-2 col-xs-12 text-center">
-                    00:00AM - 00:00AM
+                <div class="row schedule-row">
+                    <div class="col-sm-6 col-xs-12 name">
+                        FirstName LastName<br>
+                        <span class="small">Name of Presentaion</span>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Track
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        Room Location
+                    </div>
+                    <div class="col-sm-2 col-xs-12 text-center">
+                        00:00AM - 00:00AM
+                    </div>
                 </div>
             </div>
         </section>
 
+        <div class="row call-to-action schedule-boss">
+                <div class="col-xs-12">
+                    <h1>Need To Convince Your <span class="trump">Boss</span>?</h1>
+                    <button class="btn hero-btn-register">HERE IS HOW</button>
+                </div>
+            </div>
+        
         <footer class="row footer">
             <div >
                 <img  class="center-block" style="margin-top: 40px;padding-left: 50px" src="img/devnexus-logo.png" alt="logo"/>
